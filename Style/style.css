@@ -1,0 +1,363 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+
+   
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+.Header
+{
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+    
+    
+}
+.Ime img
+{
+   
+ position: fixed;
+ top: 0;
+ left: 0;
+  z-index: 1;
+    
+}
+.text
+{
+   padding-top: 240px;
+   padding-left: auto;
+   padding-right: auto;
+
+    
+}
+.text h1
+{   
+    color: white;
+    font-size: 140px;   
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.text h2
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+/* section data */
+.Data h3 
+{
+    
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.Data h3 p strong
+{
+    color: #7b7b7b;
+}
+/* Section 3 */
+.Content
+{
+    background-color: #f2f2f2;
+   
+
+}
+.con-text
+{
+    color: #333;
+    font-size: 24px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.con-img
+{
+    padding: 30px;
+    text-align: center;
+    float: left;
+    width: 25%;
+    line-height: 25px;
+   
+}
+.clr
+{ 
+    clear: both;
+}
+/* Chars */
+.charts
+{
+    background: #e0e0e0;
+}
+.charts-txt
+{
+    color: #333;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 300;
+    
+}
+.charts-cont div
+{
+    text-align: center;
+    padding: 50px;
+    width: 33.33333333333333%;
+    float: left;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+/* cool */
+.cool
+{
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/portfolio-bg.jpg);
+    
+}
+.cool-text
+{
+    color: #ffff;
+    font-size: 24px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 300;
+}
+.cool-cont div
+{
+    text-align: center;
+    padding: 50px;
+    width: 33.33333333333333%;
+    float: left;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+/* Data2*/
+.Data2 strong
+{
+    font-weight: 700;
+    color: #7b7b7b;
+    letter-spacing: 1px;
+}
+/*  */
+.about
+{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.about-text
+{
+    color: #333;
+    font-size: 24px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.words 
+{
+    /* 
+    float to elms
+    المارجن للعنصر نفسه عشان يتوسطن 
+    */
+
+    margin: auto;    
+    padding: 10px 300px;
+    width:100%;
+    text-align: center;
+    line-height: 28px;
+  
+}
+.about-cont
+{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 30px;
+    margin-top: 25px;
+}
+.about-cont p 
+{
+    line-height:28px;
+    margin-bottom:25px;
+
+}
+.about-cont h4
+{
+    font-weight: 300;
+    color: #333;
+    font-size: 18px;
+}
+.about-cont h5
+{
+
+    line-height:28px;
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+.about-cont img
+{
+    width: 35%;
+     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.about-cont a
+{
+    padding-left: 20px;
+    color: #f85c37;
+    text-decoration: none;
+}
+.about-cont:hover
+{
+  background-color: white;
+}
+.about-cont a:hover
+{
+    color: rgb(123, 123, 139);
+}
+/*  */
+
+.contact
+{
+    background-color: #2f2f2f;
+    
+    text-align: center;
+    padding: 100px; 
+    font-size: 20px;
+    color: white;
+    cursor: progress;
+}
+
+.contact div
+{   
+    
+    padding: 100px;
+    line-height: 40px;
+    width: 33.33333333333333%;
+    float: left;
+}
+
+.contact  a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.contact  p a
+{
+    padding-left: 20px;
+}
+
+form
+{
+   text-align: center;
+   margin: 10px;
+   
+
+
+}
+form h4
+{
+    margin-left: 130px;
+    text-align: start;
+    margin-top: 20px;
+}
+form input
+{
+   
+    margin: 3px;
+    width: 75%;
+    padding: 13px;
+    border: 1px solid lightblue;
+    
+}
+form button
+{
+    background-color: #f85c37;
+    margin-top: 30px;
+    padding: 15px;
+    text-decoration: none;
+    border: 0;
+    color: white;
+    border-radius: 5% ;
+    -webkit-border-radius: 5% ;
+    -moz-border-radius: 5% ;
+    -ms-border-radius: 5% ;
+    -o-border-radius: 5% ;
+}
+
+
+/*  */
+.copyright
+{
+    padding: 20px;
+    color: #555;
+    background-color: #222222;
+    line-height: 30px;
+    text-align: center;
+}
+.copyright p
+{
+    user-select: none;
+    color: white;
+}
+.copyright h4 strong
+{
+    color: red;
+}
+
+.copyright strong
+{
+    font-weight: 900;
+}
+.copyright strong:hover
+{
+    cursor: pointer;
+}
+
+
+.menu
+{
+   
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    position: fixed;
+    animation: keepmove 5s infinite;
+    -webkit-animation: keepmove 5s 1s;
+    opacity: .5;
+}
+.menu a
+{
+    position: relative;
+    top: 30%;
+    color: #f1f1f1;
+}
+@keyframes keepmove {
+    from {top: 0%; opacity: 1;}
+    to {top: 9%; opacity: .5;}
+
+}
